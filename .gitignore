@@ -1,0 +1,31 @@
+# Байт-код и кэш
+__pycache__/
+*.py[cod]
+
+# Виртуальные окружения
+venv/
+.env
+
+# Дистрибутивы и артефакты упаковки
+dist/
+*.egg-info/
+
+# Файлы покрытия тестов и кэши
+.coverage
+*.py,cover
+.cache/
+
+# Контрольные точки Jupyter Notebook
+.ipynb_checkpoints
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Системные файлы (для macOS и Windows)
+.DS_Store
+Thumbs.db
+
+# Папки IDE
+.idea/
+.vscode/
