@@ -1,3 +1,5 @@
+## Разворачивание
+
 ### Ставим Python 310 (Не забудьте поставить галочку "add to PATH")
 https://www.python.org/ftp/python/3.10.11/
 
