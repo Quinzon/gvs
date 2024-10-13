@@ -22,4 +22,5 @@ https://developer.nvidia.com/cuda-11-8-0-download-archive
 `pip install -r extensions/cuda/requirements.cuda.txt --index-url https://download.pytorch.org/whl/cu118`
 
 ### Установить расширение
-python setup.py install
+`python setup.py install`  
+Или переместить `extensions/cuda/build_lib/imp_cuda_extension-0.0.0-py3.10-win-amd64.egg` в `venv/Lib/site-packages`
