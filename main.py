@@ -6,6 +6,6 @@ a = torch.randn(n).cuda()
 b = torch.randn(n).cuda()
 result = torch.zeros(1).cuda()
 
-imp_cuda_extension.gpu_sum(a.data_ptr(), b.data_ptr(), result.data_ptr(), n)
+imp_cuda_extension.gpu_sum(a, b, result)
 
 print("Результат:", result.item())
