@@ -1,3 +1,5 @@
+## Разворачивание
+
 ### Ставим Python 310 (Не забудьте поставить галочку "add to PATH")
 https://www.python.org/ftp/python/3.10.11/
 
@@ -24,3 +26,6 @@ https://developer.nvidia.com/cuda-11-8-0-download-archive
 ### Установить расширение
 `python setup.py install`  
 Или переместить `extensions/cuda/build_lib/imp_cuda_extension-0.0.0-py3.10-win-amd64.egg` в `venv/Lib/site-packages`
+
+## Тестирование
+`python test/cuda_imp.py`
