@@ -8,8 +8,10 @@ https://developer.nvidia.com/cuda-11-8-0-download-archive
 `python -m venv venv`
 
 ### Активировать виртуальное окружение
-Шиндоус (активируйте в терминале system32):  
+Шиндоус:  
 `venv\Scripts\activate.bat`  
+Для PowerShell  
+`venv\Scripts\Activate.ps1`  
 Линукс:  
 `source venv/bin/activate`
 
@@ -18,3 +20,6 @@ https://developer.nvidia.com/cuda-11-8-0-download-archive
 
 ### Установить зависимости Pytorch с CUDA
 `pip install -r extensions/cuda/requirements.cuda.txt --index-url https://download.pytorch.org/whl/cu118`
+
+### Установить расширение
+python setup.py install
