@@ -36,4 +36,4 @@ https://developer.nvidia.com/cuda-11-8-0-download-archive
 
 
 ## Тестирование
-`python test/cuda_imp.py`
+`pytest tests/functional/`
