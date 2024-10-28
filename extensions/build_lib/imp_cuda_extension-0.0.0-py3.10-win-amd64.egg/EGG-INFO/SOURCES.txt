@@ -1,7 +1,0 @@
-README.md
-imp.cu
-setup.py
-imp_cuda_extension.egg-info/PKG-INFO
-imp_cuda_extension.egg-info/SOURCES.txt
-imp_cuda_extension.egg-info/dependency_links.txt
-imp_cuda_extension.egg-info/top_level.txt
