@@ -1,6 +1,6 @@
 import pytest
 import torch
-import imp_cuda_extension
+from cuda_extensions import imp
 
 from tests.functional.testdata.common import test_sizes, tolerance
 
@@ -10,7 +10,7 @@ def test_gpu_sum(pair_random_cuda_tensors):
     a, b = pair_random_cuda_tensors
 
     result_cuda = torch.zeros(1).cuda()
-    imp_cuda_extension.gpu_sum(a, b, result_cuda)
+    imp.gpu_sum(a, b, result_cuda)
 
     result_torch = torch.dot(a, b)
 

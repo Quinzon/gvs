@@ -42,6 +42,6 @@ void gpu_sum(torch::Tensor a, torch::Tensor b, torch::Tensor result) {
 }
 
 // Регистрация функции в модуле
-PYBIND11_MODULE(imp_cuda_extension, m) {
+PYBIND11_MODULE(imp, m) {
     m.def("gpu_sum", &gpu_sum, "Sum of two tensors");
 }
