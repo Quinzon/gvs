@@ -1,8 +1,7 @@
 import torch
-import kernel_cuda_extension as kce
+from cuda_extensions import linear
 
 def main():
-
     M = 4   #строки X и Y
     N = 3   #столбики X и строки W
     K = 2   #столбики W и Y
@@ -12,7 +11,7 @@ def main():
     B = torch.rand(K).cuda()
     Y = torch.empty(M, K).cuda()
 
-    kce.gpu_linear(X, W, B, Y)
+    linear.gpu_linear(X, W, B, Y)
 
     print("Output Y:")
     print(Y)

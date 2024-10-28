@@ -18,8 +18,7 @@ https://www.python.org/ftp/python/3.10.11/
 `pip install -r requirements.txt`
 
 ### Если не планируете самостоятельно собирать библиотеки, уже собранные для 64 винды хранятся в `extensions/build_lib`
-Пример переноса (шинда):  
-`copy extensions\build_lib\imp_cuda_extension-0.0.0-py3.10-win-amd64.egg venv\Lib\site-packages\`  
+`xcopy extensions\build_lib\* venv\Lib\site-packages\ /E /I`  
 
 
 ## Разворачивание для сборки расширений
@@ -31,7 +30,7 @@ https://developer.nvidia.com/cuda-11-8-0-download-archive
 `pip install -r extensions/cuda/requirements.cuda.txt --index-url https://download.pytorch.org/whl/cu118`
 
 ### Установить расширение
-`python extensions/cuda/setup.py install`
+`python extensions/cuda_extensions/setup.py install`
 
 
 
