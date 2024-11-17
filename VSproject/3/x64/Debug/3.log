@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\stalo\GVS\3\3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\stalo\GVS\3\3\x64\Debug\main.cu.obj "C:\Users\stalo\GVS\3\3\main.cu" 
+  main.cu
+C:\Users\stalo\GVS\3\3\main.cu(130): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     Создается библиотека C:\Users\stalo\GVS\3\3\x64\Debug\3.lib и объект C:\Users\stalo\GVS\3\3\x64\Debug\3.exp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  3.vcxproj -> C:\Users\stalo\GVS\3\3\x64\Debug\3.exe
