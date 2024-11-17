@@ -1,0 +1,10 @@
+^C:\USERS\STALO\GVS\3\REP\GVS\CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/stalo/GVS/3/rep/gvs/CMake -BC:/Users/stalo/GVS/3/rep/gvs/CMake/build --check-stamp-file C:/Users/stalo/GVS/3/rep/gvs/CMake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,4 @@
+C:/Users/stalo/GVS/3/rep/gvs/CMake/build/CMakeFiles/kernel.dir
+C:/Users/stalo/GVS/3/rep/gvs/CMake/build/CMakeFiles/gvs.dir
+C:/Users/stalo/GVS/3/rep/gvs/CMake/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/stalo/GVS/3/rep/gvs/CMake/build/CMakeFiles/ZERO_CHECK.dir

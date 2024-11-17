@@ -1,5 +1,0 @@
-ЗАБИЛДИТЬ И УСТАНОВИТЬ
-pip install .
-
-ИЛИ ПРОСТО ЗАБИЛДИТЬ
-python setup.py build
